@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package github.canardleteer.bbbb.v1alpha1;
+
+// Generally just some stub services that don't do anything useful.
+service SomeBTypeService {
+  // Nothing special.
+  rpc SomethingUnimplemented(SomethingUnimplementedRequest) returns (SomethingUnimplementedResponse);
+}
+
+// Unimplemented Request
+message SomethingUnimplementedRequest {}
+
+// Unimplemented Response
+message SomethingUnimplementedResponse {}
